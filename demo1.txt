@@ -1,0 +1,14 @@
+Tehdyt tehtävät: 1.1, 1.2, 1.3, 1.4
+1.1 Perustin Git-repon osoitteeseen: https://github.com/azabiw/iotproto.git josta tämäkin tiedosto löytyy.
+
+1.2 Aluksi vaihdoin salasanan passwd -komennolla. Jonka jälkeen ajoin komennon sudo raspi-config,
+    josta asetin localen ja aikavyöhykkeeksi Helsingin. Näiden jälkeen valitsin Expand filesystem, joka laajentaa osion.
+    Tämän jälkeen käynnistin raspin uudestaan. Avasin uuden ssh -yhteyden ja päivitin kaiken:
+    sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove.
+
+1.3 Kytkin raspin suoraan kiinni reitittimeen ja selvitin raspin IP-osoitteen komennolla arp -a, josta
+    tulostui lista IP-osoitteista joista minulle tuntematon oli 192.168.0.103 joka oli raspin IP.
+    Seuraavaksi yhdistin siihen ssh:lla komennolla ssh pi@192.168.0.103
+
+1.4 Latasin rasbianin uusimman version torrenttina, jonka jälkeen asensin sen
+    microSD-kortille käyttämällä Etcher -ohjelmaa.
