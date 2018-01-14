@@ -1,4 +1,7 @@
 Tehdyt tehtävät: 1.1, 1.2, 1.3, 1.4
+Pisteet: 12 3+4+3+2
+
+
 1.1 Perustin Git-repon osoitteeseen: https://github.com/azabiw/iotproto.git josta tämäkin tiedosto löytyy.
 
 1.2 Aluksi vaihdoin salasanan passwd -komennolla. Jonka jälkeen ajoin komennon sudo raspi-config,
