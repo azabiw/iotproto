@@ -1,5 +1,5 @@
 Tehdyt tehtävät 2.1,
-Pisteet
+Pisteet 1 +
 
 2.1 Aluksi tein tarvittavat kytkennät
     Latasin malliskriptin kurssin sivuilta komennolla wget users.jyu.fi/~helmaaka/opetus/tiea345/2018-kevat/python/painike.py
@@ -7,4 +7,6 @@ Pisteet
 2.2 Muokkasin edellisessä tehtävässä tekemääni kytkentää. En ole ihan varma, että pitikö
     demotehtävissä koodia muokata (lukea PIR-sensoria ja sytyttää LED samalla), joten käytin lataamaani mallikoodia
     painike.py muuttamalla vain GPIO-pinnien numerot ja tein erikseen toisen osan PIR-sensorille.
-    
+
+    Latasin PIR-sensorin mallikoodin: wget users.jyu.fi/~helmaaka/opetus/tiea345/2018-kevat/python/pir.py
+      

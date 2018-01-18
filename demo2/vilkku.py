@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-
+#kurssin mallikoodia
 LED=4
 PAINIKE=6
 
