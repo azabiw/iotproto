@@ -1,5 +1,5 @@
-Tehdyt tehtävät 2.1, 2.2
-Pisteet 1 + 1
+Tehdyt tehtävät 2.1, 2.2, 2.3
+Pisteet 10 = 1 + 1 + 4
 
 2.1 Aluksi tein tarvittavat kytkennät
     Latasin malliskriptin kurssin sivuilta komennolla wget users.jyu.fi/~helmaaka/opetus/tiea345/2018-kevat/python/painike.py
@@ -9,6 +9,6 @@ Pisteet 1 + 1
     painike.py muuttamalla vain GPIO-pinnien numerot ja tein erikseen toisen osan PIR-sensorille.
 
     Latasin PIR-sensorin mallikoodin: wget users.jyu.fi/~helmaaka/opetus/tiea345/2018-kevat/python/pir.py
-    Ja tein kytkennät. 
+    Ja tein kytkennät.
 
-2.3
+2.3 En saanut cobbleria osumaan kohdilleen breadboardin pinnien kanssa, joten kuvissa olevat kytkennät ovat vain suurinpiirtein oikein.
