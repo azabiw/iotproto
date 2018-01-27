@@ -1,0 +1,33 @@
+Tehdyt tehtävät: 3.1, 3.2, 3.3, 3.5, 3.7
+3.1: Liitin anturin ensimmäisen pinnin 3.3v, seuraavan data-pinnin GPIO 4 ja laitoin siitä myös ylösvetovastuksen 3.3v
+     Kolmannelle pinnille en tehnyt mitään ja viimeisen pinnin liitin maahan.
+     Koodina käytin adafruitin simpletest.py, johon vaihdoin vain oikean GPIO pinnin.
+     Lämpötila-anturi: Temp=10.0*C  Humidity=138.0%
+     Tulostus ei ole järkevä, koska ei asunnossani ihan noin kylmä ole, mutta en keksi miten saisin järkevää dataa ulos.
+
+3.2  Siirsin json tiedoston scp:llä omalta koneeltani raspille: "scp lampomittari.json pi@192.168.0.103:~"
+     Koodina käytin adafruitin reposta tullutta mallikoodia.
+     client email: raspipusher@lampomittari-192916.iam.gserviceaccount.com
+     Data päivittyy google sheetsiin, mutta ei ole järkevää.
+
+
+3.3 Pienensin resoluutiota antamalla koon parametrina:
+    raspivid -t 15000 -o video.h264 -w 640 -h 480
+    https://youtu.be/Civr0D1bJhU
+
+3.5 tein koodin aiemman PIR.py koodia muokkaamalla.
+
+3.6 tein skriptin otakuva.sh ja lisäsin crontabiin
+    @hourly              /home/pi/skripit/otakuva.sh
+    jolla otan kuvan joka tunti
+
+3.7  Asensin nginx:n "sudo apt-get install nginx"
+     Käynnistin sen "sudo service nginx start"
+     Tämän jälkeen muokkasin sivun lähdekoodia:
+     sudo nano /var/www/html/index.nginx.debian.html
+     ja lisäsin sinne rivin: <img src="kuva.jpg">
+     Seuraavaksi tein symbolisen linkin html -kansiosta kuvat-kansioon:
+     sudo ln -s /home/pi/kuvat/kuva.jpg
+     Tämän jälkeen annoin www-data käyttäjälle oikeudet kuvat-kansioon:
+     sudo chmod -R ugo+rw
+     
