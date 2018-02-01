@@ -1,0 +1,20 @@
+Tehdyt tehtävät: 4.1,
+pisteet:
+
+4.1  Muokkkasin motionin config tiedostoa:
+     config file /etc/motion/
+     logfile /home/pi/motion/log.txt
+     # Target base directory for pictures and films
+     # Recommended to use absolute path. (Default: current working directory)
+     target_dir /home/pi/motion/
+
+4.2  pre_capture 0 -> pre_capture 2
+     event_gap 60 -> event_gap 5
+
+4.3  max_movie_time 0 -> max_movie_time 10
+     event_gap 10
+     siirsin maskin scp:llä
+     # Full path name to. (Default: not defined)
+     mask_file /home/pi/maski.pgm
+
+4.5 Asensin opencv:n onnistuneesti. Meni noin 6h.
