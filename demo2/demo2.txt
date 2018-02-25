@@ -1,4 +1,4 @@
-Tehdyt tehtävät 2.1, 2.2, 2.3
+Tehdyt tehtävät 2.1, 2.2, 2.3, 2.4, 2.5
 Pisteet 1 + 2 + 4 + 2 + 1 = 10
 
 2.1 Aluksi tein tarvittavat kytkennät
@@ -14,4 +14,7 @@ Pisteet 1 + 2 + 4 + 2 + 1 = 10
     Video: https://www.youtube.com/watch?v=23P-QF0pFh0
 
 2.3 En saanut cobbleria osumaan kohdilleen breadboardin pinnien kanssa, joten kuvissa olevat kytkennät ovat vain suurinpiirtein oikein.
-    Video: https://youtu.be/WkcVUuLxGXY
+
+2.4
+
+2.5 Video: https://youtu.be/WkcVUuLxGXY
