@@ -1,0 +1,6 @@
+Tehdyt tehtävät: 5.1
+Pisteet: 2
+
+5.1 Käänsin ohjelman komennolla:
+    gcc  -o pirc pir.c -lwiringPi
+    ja käynnistin sen : ./pirc
